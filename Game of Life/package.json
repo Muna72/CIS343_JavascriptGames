@@ -1,0 +1,22 @@
+{
+  "name": "game of life",
+  "version": "1.0.0",
+  "description": "An Game of Life game.",
+  "main": "main.js",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "jsdom": "^14.0.0",
+    "package.json": "^2.0.1",
+    "prompt-sync": "^4.1.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Game of Life",
+    "game."
+  ],
+  "author": "",
+  "license": "ISC"
+}
