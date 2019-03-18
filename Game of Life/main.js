@@ -20,10 +20,6 @@ const prompt = require('prompt-sync')();
  */
 function loadFile(file){
 
-    //var $ = require('jQuery');
-
-    //var data = $.getJSON(file);
-
     var fs = require("fs");
 // Get content from file
     var data = fs.readFileSync(file);
@@ -61,12 +57,11 @@ function saveFile(file, contents){
     // Now, we will accept input in a loop until the user
     // asks us to quit.
     while(1){
-        var command = prompt("Press q to quit, w to save to disk,\n n to iterate multple times, or any other\n" +
-         "key to continue to the next generation.\n");
-        console.log("-------------------------\n");
+        var command = prompt("Press q to quit, w to save to disk, n to iterate multiple times, or any other " +
+         "key to continue to the next generation.");
+        console.log("-------------------------");
 
         switch(command){
-
             case 'q':
                 // Case 'q' results in exiting the game.  We must free
                 // our memory here.
